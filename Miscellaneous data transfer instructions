@@ -1,0 +1,29 @@
+XCHG BX,CX
+XCHG AL,CL 
+XCHG AL,SUM[BX]
+
+
+
+
+
+
+In and out instructions
+IN AL ,0F8H 
+IN AX, 95H 
+
+
+
+
+MOV DX,30F8H 
+IN AL,DX 
+IN AX,DX 
+
+
+
+OUT 0F8H,AL 
+OUT 0FBH,AX
+
+MOV DX,30F8H 
+OUT DX, AL 
+OUT DX,AX
+
